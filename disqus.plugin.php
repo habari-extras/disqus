@@ -51,14 +51,6 @@ class Disqus extends Plugin
 		}
 	}
 
-	/**
-	* Registers this plugin for updates against the beacon
-	*/
-	public function action_update_check()
-	{
-		Update::add('Disqus', '358e7ee7-ee2f-4b04-80f4-f690129357a6', $this->info->version);
-	}
-
 }
 
 ?>
