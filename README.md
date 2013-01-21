@@ -1,7 +1,10 @@
 Make sure that your comments code is in a template called comments.php.
 
 Where you would normally display your comments, put 
+
+```php
 <?php $theme->comments( $post ); ?>
+```
 
 If there are native Habari comments on your post, these will be displayed,
 along with the native comment form. Otherwise, Disqus comments will be used.
